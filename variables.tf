@@ -57,6 +57,11 @@ variable "node_disk_gib" {
   type        = number
   default     = 30
 }
+variable "ssh_key_name" {
+  description = "The name of the SSH key pair to use for EC2 instances"
+  type        = string
+  default     = "linux"
+}
 
 variable "tags" {
   description = "Common resource tags"
