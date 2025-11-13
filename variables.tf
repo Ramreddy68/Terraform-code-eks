@@ -7,7 +7,7 @@ variable "region" {
 variable "cluster_name" {
   description = "EKS cluster name"
   type        = string
-  default     = "devopsshack-cluster"
+  default     = "rameks-cluster"
 }
 
 variable "kubernetes_version" {
@@ -62,7 +62,7 @@ variable "tags" {
   description = "Common resource tags"
   type        = map(string)
   default = {
-    Project   = "DevOpsShack"
+    Project   = "rameks"
     ManagedBy = "Terraform"
   }
 }
