@@ -43,7 +43,7 @@ variable "node_desired" {
 variable "node_min" {
   description = "Minimum node count"
   type        = number
-  default     = 2
+  default     = 3
 }
 
 variable "node_max" {
